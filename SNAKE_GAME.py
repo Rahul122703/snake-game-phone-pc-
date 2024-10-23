@@ -10,7 +10,7 @@ def play_snake_game(score_y,score_size,food_size,food_X,food_Y1,food_Y2,pc_heigh
         def startingBody(self):
             for i in range(3):
                 self.createSnake(0, 0)
-            self.body[0].color("blue")
+            self.body[0].color("orange")
 
         def createSnake(self, posiX, posiY):
             segment = Turtle("square")
